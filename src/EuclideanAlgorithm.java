@@ -10,4 +10,8 @@ public class EuclideanAlgorithm {
         // На этом этапе 'a' содержит НОД
         return a;
     }
+
+    public static int test(int a, int b){
+        return gcd(a, b);
+    }
 }
